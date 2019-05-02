@@ -1,7 +1,7 @@
 {
-  "name": "docz-plugin-css",
-  "version": "0.11.0",
-  "description": "This package makes it possible to use preprocessors and css modules on docz",
+  "name": "docz-plugin-css-new",
+  "version": "0.1.0",
+  "description": "This package makes it possible to use preprocessors and css modules on docz (fork form https://github.com/pedronauck/docz-plugin-css)",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -11,10 +11,10 @@
   "homepage": "https://docz.site",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pedronauck/docz-plugin-css.git"
+    "url": "git@github.com:borstep/docz-plugin-css.git"
   },
-  "bugs": {
-    "url": "https://github.com/pedronauck/docz-plugin-css/issues"
+  "publishConfig": {
+    "registry": "http://nexus.dev.ngoar.com/repository/npm-private/"
   },
   "files": [
     "dist/",
@@ -33,7 +33,7 @@
     "autoprefixer": "^9.1.5",
     "css-loader": "^1.0.0",
     "deepmerge": "^2.1.1",
-    "docz-core": "^0.11.0",
+    "docz-core": "^1.1.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "loader-utils": "^1.1.0",
@@ -58,6 +58,6 @@
     "trash-cli": "^1.4.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.4.5"
   }
 }
